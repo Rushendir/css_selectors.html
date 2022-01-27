@@ -1,0 +1,106 @@
+  * {
+    font-style: normal;
+ }
+ /*universal selectors*/
+ ol li{
+    color: rgba(74, 20, 209, 0.891);
+    list-style: none;
+    font-style: italic;
+ }
+  /* Type selectors*/
+ h2{
+     color: firebrick !important;
+ }
+ /*type/element selectors*/
+ .outer, .edge{
+     font-style: italic;
+     text-align: center;
+     text-decoration: solid;
+     line-height: 20px;
+     border:dotted;
+     border-radius:20px;
+     padding:5px;
+     background-color: cyan;
+     text-justify: auto;
+     text-indent: 2em;
+     text-rendering: auto;
+ }
+ /* class selectors or Grouping selectors*/
+ .space,.dot,.font{
+     font-style: oblique;
+     color: darkblue ;
+     background-color: darkgray;
+ }
+ /*class selectors or Grouping selectors*/
+ #style,#star{
+    font-style: oblique;
+    color: deeppink;
+    background-color: darkgray;
+}
+ /* id selectors or Grouping selectors*/
+.edge{
+    border:double ;
+    border-radius: 20px;
+    box-shadow: gray;
+    border-color: indigo;
+}
+ /*class selector*/
+#blue{
+    width: 100%;
+    float: left;
+    color: burlywood;
+    padding: 1em;
+    border: darkred;
+}
+ /*id selector*/
+ th{
+     width: 1em;
+     font: size 5px;;
+     font-style: italic;
+     text-align: center center;
+     text-shadow: dimgray 2px 0;
+     column-span: 2;
+     text-underline-position: below;
+ }
+  /*type or element selector*/
+ td{
+     font-weight: bold;
+     text-align: center center;
+     font: size 5px;
+     width: 0.5em; 
+     color: dodgerblue;
+ }
+  /*type or element selector*/
+ #main{
+     width: 800px; 
+     background-color: rgba(214, 203, 41, 0.864);
+ }
+  /*id selector*/
+  .head > p{
+     font-style: italic;
+     background-color: gold;
+ }
+ /*child selector*/
+ [type]{
+     color: rgb(115, 103, 103);
+     border-color: hotpink;  
+ }
+ /*attribute selector*/
+ .over{
+     color: indigo;
+     background-color: khaki;
+     font-style: italic;
+     padding: 5px;
+ }
+ h2>th{
+     font-style: italic;
+     font-weight: 700;
+     font-size: 0em;
+ }
+  /*child selector*/
+ #class p {
+     font-style: normal;
+     background-color: rgb(202, 213, 136);
+     color: rgb(38, 14, 120);
+ }
+ /*descendant selelctors*/
